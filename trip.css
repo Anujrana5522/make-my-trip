@@ -2,9 +2,62 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-weight: 400;
+}
+.main{
+    height: 100vh;
+    width: 100vgh;
+    background-image: url(Image/snowy-mountains-sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
-    background-color: #000;
-    color: #fff;
-    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 13px;
+    margin: 0 auto;
+    height: 10%;
+    background-color:transparent;
+    padding-block: 5px;
+ 
+}
+.hstar{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.hend{
+    gap: 25px;
+    width: 280%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.key{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.mybizz{
+    width: 197px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.wishlist{
+    display: flex;
+    align-items: center;
+}
+.mytrip{
+    display: flex;
+    align-items: center;
+}
+.lang{
+    align-items: center;
+    justify-content: center;
+}
+.accountcreate{
+    align-items: center;
 }
